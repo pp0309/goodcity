@@ -11,7 +11,7 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-        'api':{
+        '/api':{
           target:"https://m.hao24.com",
           changeOrigin:true,
           pathRewrite:{

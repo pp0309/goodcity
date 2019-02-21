@@ -22,30 +22,31 @@ export default new Router({
       path: '/my',
       name: 'My',
       component: My
-    }, {
-      path: '/live',
-      name: 'Live',
-      component: Live
     },
-    {
-      path: '/ health',
-      name: ' Health',
-      component:  Health
-    },
-    {
-      path: '/electric',
-      name: 'Electric',
-      component: Electric
-    },
-    {
-      path: '/beauty',
-      name: 'Beauty',
-      component: Beauty
-    },
-    {
-      path: '/homepage',
-      name: 'Homepage',
-      component: homepage
-    },
+    // {
+    //   path: '/live',
+    //   name: 'Live',
+    //   component: Live
+    // },
+    // {
+    //   path: '/ health',
+    //   name: ' Health',
+    //   component:  Health
+    // },
+    // {
+    //   path: '/electric',
+    //   name: 'Electric',
+    //   component: Electric
+    // },
+    // {
+    //   path: '/beauty',
+    //   name: 'Beauty',
+    //   component: Beauty
+    // },
+    // {
+    //   path: '/homepage',
+    //   name: 'Homepage',
+    //   component: homepage
+    // },
   ]
 })
